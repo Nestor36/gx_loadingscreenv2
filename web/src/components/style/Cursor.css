@@ -1,0 +1,8 @@
+#cursor {
+  position: fixed;
+  width: 1.5vw;
+
+  z-index: 99999999999;
+  pointer-events: none;
+  user-select: none;
+}
