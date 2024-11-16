@@ -2,7 +2,14 @@
 
 - Esto solo es para mi propio aprendizaje, poco a poco comprendiendo mucho mejor!
 
-## Cración de un AlertDialog
+## Creación de un Cursor
+
+```
+    <Cursor available={false} />
+
+```
+
+## Creación de un AlertDialog
 
 ```
     <AlertDialog
