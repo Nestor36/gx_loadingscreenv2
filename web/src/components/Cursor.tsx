@@ -1,12 +1,11 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "./style/Cursor.css";
 
 type Props = {
   available: boolean;
-  type?: 1;
 };
 
-function Cursor({ available, type }: Props) {
+function Cursor({ available }: Props) {
   if (!available == true) {
     return;
   }

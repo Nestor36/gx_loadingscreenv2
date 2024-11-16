@@ -15,9 +15,9 @@ const Button: React.FC<ButtonProps> = ({ label, onClick, type = "cancel" }) => {
       : "brutalist-card__button--read";
 
   return (
-    <a onClick={onClick} className={`brutalist-card__button ${style}`} href="#">
+    <button onClick={onClick} className={`brutalist-card__button ${style}`}>
       {label}
-    </a>
+    </button>
   );
 };
 
